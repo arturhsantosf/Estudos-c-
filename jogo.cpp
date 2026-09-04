@@ -28,7 +28,6 @@ int main(){
     }
     srand(time(NULL));
 const int NUM=rand()%100;
-cout<<"\nO numero secreto e: "<<NUM<<endl;
 if(nivel=='F' || nivel=='f' || nivel=='M' || nivel=='m' || nivel=='D' || nivel=='d'){
 
 for(tentativas=tentativas;tentativas>0;tentativas--){
